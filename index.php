@@ -39,7 +39,7 @@ if (login_check($mysqli) == true) {
                    onclick="formhash(this.form, this.form.password);" /> 
         </form>
         <h1><br></h1>
-        <h1>If you don't have account, please <a href="register.php">register</a></h1>
+        <h1>If you don't have an account, please <a href="register.php">register</a></h1>
     </body>
     <?php }else: {?>
     <?php
